@@ -33,7 +33,7 @@ There's a few special files in the hierarchy.
 Run this:
 
 ```sh
-git clone https://github.com/holman/dotfiles.git ~/.dotfiles
+git clone https://github.com/samchatfield/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 script/bootstrap
 ```
