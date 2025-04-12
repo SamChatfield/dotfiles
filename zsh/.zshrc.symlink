@@ -73,9 +73,10 @@ AGNOSTER_GIT_INLINE=true
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git zsh-nvm docker docker-compose)
 
-source $ZSH/oh-my-zsh.sh
+# Moved down so nvm bins appear after brew bins in PATH
+# source $ZSH/oh-my-zsh.sh
 
 # Dotfiles configuration
 
@@ -122,6 +123,9 @@ done
 unset config_files
 
 # User configuration
+
+# Source omz later here so nvm bins appear after brew bins in PATH
+source $ZSH/oh-my-zsh.sh
 
 export MANPATH="/usr/local/man:$MANPATH"
 
