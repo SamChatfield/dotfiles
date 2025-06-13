@@ -2,6 +2,8 @@ cask_args appdir: '/Applications'
 
 brew 'wget'
 brew 'git'
+brew 'gpg'
+brew 'pinentry-mac'
 brew 'node'
 brew 'python'
 brew 'awscli'

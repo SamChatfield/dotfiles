@@ -165,6 +165,8 @@ then
   source ~/.localrc
 fi
 
+export GPG_TTY=$(tty)
+
 # Environment variables for Omnea App
 export OMNEA_META_APP_DIR="$HOME/repos/omnea-meta-repo"
 export OMNEA_APP_DIR="$OMNEA_META_APP_DIR/omnea-app"
