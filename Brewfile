@@ -10,4 +10,5 @@ brew 'awscli'
 brew 'gh'
 brew 'postgresql@16'
 brew 'exercism'
-brew 'claude-code'
+
+cask 'claude-code'
