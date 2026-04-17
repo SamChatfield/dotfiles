@@ -170,12 +170,3 @@ export GPG_TTY=$(tty)
 # Environment variables for Omnea App
 export OMNEA_META_APP_DIR="$HOME/repos/omnea-meta-repo"
 export OMNEA_APP_DIR="$OMNEA_META_APP_DIR/omnea-app"
-
-# Set env vars for terminal
-setEnv () {
-  if [ -f "$OMNEA_APP_DIR/samc-stack.env" ]; then
-    source "$OMNEA_APP_DIR/samc-stack.env"
-  fi
-}
-
-setEnv
