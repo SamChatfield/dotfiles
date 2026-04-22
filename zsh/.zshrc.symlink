@@ -10,7 +10,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="agnoster"
 # Agnoster theme options
-DEFAULT_USER="sam.c"
+DEFAULT_USER="sam"
 AGNOSTER_GIT_INLINE=true
 
 # Set list of themes to pick from when loading at random
@@ -155,7 +155,7 @@ export MANPATH="/usr/local/man:$MANPATH"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # your project folder that we can `c [tab]` to
-export PROJECTS=~/repos
+export PROJECTS=~/Developer
 
 # Stash your environment variables in ~/.localrc. This means they'll stay out
 # of your main dotfiles repository (which may be public, like this one), but
@@ -166,7 +166,3 @@ then
 fi
 
 export GPG_TTY=$(tty)
-
-# Environment variables for Omnea App
-export OMNEA_META_APP_DIR="$HOME/repos/omnea-meta-repo"
-export OMNEA_APP_DIR="$OMNEA_META_APP_DIR/omnea-app"
