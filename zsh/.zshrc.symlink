@@ -164,5 +164,3 @@ if [[ -a ~/.localrc ]]
 then
   source ~/.localrc
 fi
-
-export GPG_TTY=$(tty)
