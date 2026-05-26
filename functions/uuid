@@ -1,0 +1,9 @@
+#!/bin/zsh
+#
+# Usage: uuid [count]
+# Description: prints `count` random v4 UUIDs (default 1) using node:crypto.
+
+uuid () {
+    local count="${1:-1}"
+    node -e "for (let i = 0; i < ${count}; i++) console.log(require('crypto').randomUUID())"
+}
