@@ -13,4 +13,4 @@ brew 'direnv'
 brew 'hasura-cli'
 brew 'jq'
 
-cask 'claude-code'
+cask 'claude-code@latest'
