@@ -12,5 +12,6 @@ brew 'postgresql@16'
 brew 'direnv'
 brew 'hasura-cli'
 brew 'jq'
+brew 'aws-sso-cli'
 
 cask 'claude-code@latest'
