@@ -15,3 +15,6 @@ brew 'jq'
 brew 'aws-sso-cli'
 
 cask 'claude-code@latest'
+
+tap 'ariga/tap'
+brew 'ariga/tap/atlas'
