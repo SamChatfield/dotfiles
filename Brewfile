@@ -13,6 +13,7 @@ brew 'direnv'
 brew 'hasura-cli'
 brew 'jq'
 brew 'aws-sso-cli'
+brew 'libpq'
 
 cask 'claude-code@latest'
 
