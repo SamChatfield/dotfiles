@@ -14,6 +14,7 @@ brew 'hasura-cli'
 brew 'jq'
 brew 'aws-sso-cli'
 brew 'libpq'
+brew 'ripgrep'
 
 cask 'claude-code@latest'
 
