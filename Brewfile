@@ -20,3 +20,7 @@ cask 'claude-code@latest'
 
 tap 'ariga/tap'
 brew 'ariga/tap/atlas'
+
+tap 'mutagen-io/mutagen'
+tap 'torarnv/claude-remote-shell'
+brew 'torarnv/claude-remote-shell/claude-remote-shell'
